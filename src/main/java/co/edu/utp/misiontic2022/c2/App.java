@@ -1,10 +1,6 @@
 package co.edu.utp.misiontic2022.c2;
 
-import java.sql.SQLException;
-
-import co.edu.utp.misiontic2022.c2.controller.ConsultasController;
-import co.edu.utp.misiontic2022.c2.model.vo.ProyectosConsultaVo;
-import co.edu.utp.misiontic2022.c2.view.ConsultasView;
+import co.edu.utp.misiontic2022.c2.view.FrmConsulta;
 
 /**
  * Hello world!
@@ -12,7 +8,7 @@ import co.edu.utp.misiontic2022.c2.view.ConsultasView;
  */
 public class App {
     public static void main(String[] args) {
-        var view = new ConsultasView();
-        view.imprimirProyectosCasasCampestreYCondominios();
+        var view = new FrmConsulta();
+        view.setVisible(true);
     }
 }
